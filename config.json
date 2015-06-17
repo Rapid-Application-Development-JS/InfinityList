@@ -1,0 +1,15 @@
+{
+	"folderCompiled": "release",
+	"folderCompiled_": "Folder path where to store compiled source",
+	"folderSource": "source",
+	"folderSource_": "Folder path where source files is stored",
+	"name": "radjs-infinitelist",
+	"name_": "Name of library and main file",
+	"sourceFiles": [
+		"source/module-head",
+		"source/global.js",
+		"source/infinitelist.js",
+		"source/module-foot"
+	],
+	"sourceFiles_": "Ordered list of source files"
+}

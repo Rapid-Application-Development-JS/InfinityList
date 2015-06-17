@@ -1,0 +1,49 @@
+{
+	"authors": [
+		"Yuriy Luchaninov <y.luchaninov@mobidev.biz>"
+	],
+	"contributors": [
+		{
+			"email": "a.trofimenko@mobidev.biz",
+			"name": "Anton Trofimenko"
+		},
+		{
+			"email": "y.luchaninov@mobidev.biz",
+			"name": "Yuriy Luchaninov"
+		}
+	],
+	"dependencies": {},
+	"description": "Infinite list in JavaScript",
+	"devDependencies": {
+		"gulp": "^3.*",
+		"gulp-rename": "^1.2.*",
+		"gulp-sourcemaps": "^1.5.*",
+		"gulp-uglify": "^1.2.0",
+		"uglifyjs": "^2.*"
+	},
+	"homepage": "https://github.com/Rapid-Application-Development-JS/InfiniteList",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"keywords": [
+		"infinite-list",
+		"infinite_list",
+		"infinite list"
+	],
+	"license": "MIT",
+	"main": [
+		"/release/radjs-infinitelist.min.js",
+		"/release/radjs-infinitelist.map"
+	],
+	"moduleType": [
+		"globals",
+		"amd",
+		"es6"
+	],
+	"name": "radjs-infinitescroll",
+	"version": "1.0.0"
+}
