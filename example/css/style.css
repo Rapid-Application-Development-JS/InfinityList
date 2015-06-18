@@ -52,6 +52,15 @@ html, body {
 	transform: translateZ(0);
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.item {
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color: black;
+		-webkit-text-fill-color: white;
+		text-shadow: none;
+	}
+}
+
 .item.vertical {
 	height: 32px;
 	width: calc(100% - 2px);
