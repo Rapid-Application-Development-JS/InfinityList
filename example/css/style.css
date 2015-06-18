@@ -1,0 +1,70 @@
+@font-face {
+	font-family: "San Francisco";
+	src: local("San Francisco"),
+	url("../font/System San Francisco Display Bold.ttf");
+}
+
+html, body {
+	background-color: silver;
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+
+.container {
+	height: 100%;
+	overflow: auto;
+	width: 100%;
+}
+
+.container > div {
+	overflow: hidden;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.container.horizontal > div {
+	height: 100%;
+}
+
+.container.vertical > div {
+	width: 100%;
+}
+
+.item {
+	border: 1px solid black;
+	color: white;
+	font-family: "San Francisco", sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0;
+	padding: 8px;
+	position: absolute;
+	text-align: center;
+	text-shadow: -2px -2px 0 rgba(0, 0, 0, .75), 2px -2px 0 rgba(0, 0, 0, .75), -2px 2px 0 rgba(0, 0, 0, .75), 2px 2px 0 rgba(0, 0, 0, .75);
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.item.vertical {
+	height: 32px;
+	width: calc(100% - 2px);
+}
+
+.item.horizontal {
+	height: calc(100% - 2px);
+	width: 32px;
+}
+
+.item.horizontal div {
+	text-align: center;
+	width: 1px;
+	float: left;
+	word-wrap: break-word;
+}
