@@ -60,7 +60,7 @@
 		element.className = "item";
 		element.classList.add("item");
 		element.classList.add(this.direction);
-		element.style.backgroundColor = ColorGen.random(.5);
+		element.style.backgroundColor = ColorGen.random(.75);
 	};
 	var adapter = new Adapter(direction, infiniteListStyling);
 	container.list = new RADJS_InfiniteList(container, adapter, direction);
