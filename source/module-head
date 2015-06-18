@@ -1,0 +1,14 @@
+(function (root, factory) {
+	if (typeof define === "function" && define.amd) {
+		define("radjs-infinitelist", function () {
+			root.RADJS_InfiniteList = factory();
+			return root.RADJS_InfiniteList;
+		});
+	} else if (typeof module === "object" && module.exports) {
+		root.RADJS_InfiniteList = factory();
+		module.exports = root.RADJS_InfiniteList;
+	} else {
+		root.RADJS_InfiniteList = factory();
+	}
+}(this, function () {
+	"use strict";

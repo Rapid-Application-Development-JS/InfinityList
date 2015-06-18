@@ -44,6 +44,6 @@
 		"amd",
 		"es6"
 	],
-	"name": "radjs-infinitescroll",
+	"name": "radjs-infinitelist",
 	"version": "1.0.0"
 }

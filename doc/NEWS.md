@@ -1,4 +1,4 @@
-Infinite Scroll Release Notes
+Infinite List Release Notes
 ==========================
 
 Version 1.0.0 - Jun 18, 2015

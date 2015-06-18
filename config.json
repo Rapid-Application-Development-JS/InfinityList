@@ -8,6 +8,9 @@
 	"sourceFiles": [
 		"source/module-head",
 		"source/global.js",
+		"source/polyfill_date.js",
+		"source/polyfill_perfomance.js",
+		"source/polyfill_animation.js",
 		"source/infinitelist.js",
 		"source/module-foot"
 	],
